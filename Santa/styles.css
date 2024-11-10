@@ -212,14 +212,14 @@ h2{
 .biobox{
 	color: #54675a;
 	font-size: 16pt;
-	padding-top: 40px;
+	padding-top: 10px;
 	font-family: "Niramit", sans-serif;
 
 }
 
 .biobox p{
 	color: #54675a;
-	font-size: 20pt;
+	font-size: 12pt;
 	padding-left: 20px;
 	padding-right: 20px;
 	line-height: 30pt;
@@ -257,14 +257,14 @@ h2{
 	width: 60%;
 	display: flex;
 	padding-left: 10%;
-	padding-top:160px;
+	padding-top:500px;
 	flex-wrap: wrap;
 	text-wrap: nowrap;
 
 }
 
 .vid video{
-	width: 430px;
+	width: 360px;
 	height: auto;
 	margin-right: 70%;
 	margin-left: 80%;
