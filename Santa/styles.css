@@ -162,6 +162,7 @@ padding-top:30px;
 	display: flex;
 	padding-left: 10%;
 	flex-wrap: wrap;
+	padding-top:200px;
 	text-wrap: nowrap;
 
 }
@@ -212,17 +213,17 @@ h2{
 .biobox{
 	color: #54675a;
 	font-size: 16pt;
-	padding-top: 10px;
+	padding-top: 40px;
 	font-family: "Niramit", sans-serif;
 
 }
 
 .biobox p{
 	color: #54675a;
-	font-size: 12pt;
+	font-size: 20pt;
 	padding-left: 20px;
 	padding-right: 20px;
-	line-height: 30pt;
+	line-height: 40pt;
 }
 .boxA a{
 	text-decoration: none;	
@@ -250,7 +251,19 @@ h2{
 }
 
 .realdeal img{
-	display: none;
+	
+}
+
+.biobox p{
+	color: #54675a;
+	font-size: 12pt;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 30pt;
+}
+
+.biobox{
+	padding-top: 10px;
 }
 
 .avail{
@@ -264,10 +277,22 @@ h2{
 }
 
 .vid video{
-	width: 360px;
+	width: 430px;
 	height: auto;
 	margin-right: 70%;
 	margin-left: 80%;
 	padding-left: 0%;
 }
 }
+
+@media screen and (min-width: 1500px){
+	.vid video{
+	width: 700px;
+	height: auto;
+	margin-right: 70%;
+	margin-left: 80%;
+	padding-left: 0%;
+}
+
+}
+
